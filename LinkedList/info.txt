@@ -1,0 +1,9 @@
+Advantages:
+ - Dynamic size: Linked lists can easily grow or shrink in size during execution.
+ - Efficient insertions and deletions: Insertions and deletions can be done in constant time (O(1)) if you have a reference to the node where the operation is performed.
+ - No need for contiguous memory: Unlike arrays, linked lists do not require contiguous memory allocation, making them more flexible in memory usage.
+
+Disadvantages:
+- Lack of random access: Accessing an element by index in a linked list requires traversing the list from the beginning, resulting in linear time complexity (O(n)).
+- Extra memory overhead: Each node in a linked list requires extra memory for storing the reference to the next (and possibly previous) node.
+- Cache inefficiency: Due to their scattered memory allocation, linked lists may result in poor cache performance compared to arrays.
